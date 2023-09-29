@@ -1,0 +1,53 @@
+{
+
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 1,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"hyprland/workspaces",
+	
+	],
+  
+"modules-center": [
+	
+	"wlr/taskbar",
+	], 
+
+"modules-right": [
+	"custom/network_traffic",
+	"tray", 
+	"battery", 
+	"pulseaudio",
+	],
+}
+
+/*
+
+	"cpu", 
+	"temperature", 
+	"memory",
+	"disk", 
+	"custom/weather",
+	"custom/menu", 
+	"clock",
+	"custom/cycle_wall",	
+	"custom/lock",	
+	"pulseaudio#microphone",
+	"hyprland/window", 
+	
+	"wireplumber", 
+	"backlight",
+	"custom/light_dark", 
+	"custom/power",
+
+*/
